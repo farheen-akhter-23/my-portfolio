@@ -1,5 +1,6 @@
 {
 	"name": "react-tailwindcss-portfolio",
+	"homepage": "https://farheen-akhter-23.github.io/my-portfolio",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -19,12 +20,15 @@
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
-		"start": "react-scripts --openssl-legacy-provider start",
-		"build": "yarn run react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
-	},
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "start": "react-scripts --openssl-legacy-provider start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "build:css": "postcss src/css/tailwind.css -o src/css/main.css"
+},
+
 	"eslintConfig": {
 		"extends": [
 			"react-app",
