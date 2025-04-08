@@ -7,7 +7,6 @@ import Button from '../components/reusable/Button';
 const Home = () => {
 	return (
 		<div className="container mx-auto">
-			<AppBanner></AppBanner>
 
 			<ProjectsProvider>
 				<ProjectsGrid></ProjectsGrid>

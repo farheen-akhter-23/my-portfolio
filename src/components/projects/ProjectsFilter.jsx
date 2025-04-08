@@ -1,8 +1,9 @@
 const selectOptions = [
-	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
+	'Machine Learning',
+	'Deep Learning',
+	'AI Agents',
+	'LLM',
+	'Computer Vision'
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {

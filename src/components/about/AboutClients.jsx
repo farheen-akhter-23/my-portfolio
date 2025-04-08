@@ -2,6 +2,8 @@ import { useContext } from 'react';
 import AboutMeContext from '../../context/AboutMeContext';
 import AboutClientSingle from './AboutClientSingle';
 
+
+
 const AboutClients = () => {
 	const { clientsData, clientsHeading } = useContext(AboutMeContext);
 
@@ -16,6 +18,7 @@ const AboutClients = () => {
 						title={client.title}
 						image={client.img}
 						key={client.id}
+						description={client.description}
 					/>
 				))}
 			</div>

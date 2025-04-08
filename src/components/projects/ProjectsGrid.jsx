@@ -62,7 +62,7 @@ const ProjectsGrid = () => {
 						</span>
 						<input
 							onChange={(e) => {
-								setSearchProject(e.target.value);
+								setSearchProject(e.target.value)
 							}}
 							className="font-general-medium 
                                 pl-3
@@ -106,6 +106,7 @@ const ProjectsGrid = () => {
 					: searchProject
 					? searchProjectsByTitle.map((project) => (
 							<ProjectSingle
+								id={project.id}
 								title={project.title}
 								category={project.category}
 								image={project.img}
@@ -114,6 +115,7 @@ const ProjectsGrid = () => {
 					  ))
 					: projects.map((project) => (
 							<ProjectSingle
+								id={project.id}
 								title={project.title}
 								category={project.category}
 								image={project.img}

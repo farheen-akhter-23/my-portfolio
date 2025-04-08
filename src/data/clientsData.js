@@ -1,54 +1,58 @@
 // Import images
-import AmazonImage from '../images/brands/amazon_gray.png';
-import SonyImage from '../images/brands/sony_gray.png';
-import AdidasImage from '../images/brands/adidas_gray.png';
-import FilaImage from '../images/brands/fila_gray.png';
-import NBImage from '../images/brands/nb_gray.png';
-import SamsungImage from '../images/brands/samsung_gray.png';
-import CanonImage from '../images/brands/canon_gray.png';
-import PumaImage from '../images/brands/puma_gray.png';
+import aiml from '../images/ai.png';
+import frameworks from '../images/frameworks.png';
+import cloud from '../images/cloud-ci-cd.png';
+import pipelines from '../images/pipelines.png';
 
-export const clientsHeading = 'Some of the brands that trust me';
+export const clientsHeading = 'Technical Skill Set';
 
 export const clientsData = [
 	{
-		id: 1,
-		title: 'Amazon',
-		img: AmazonImage,
+	  id: 1,
+	  title: 'AI & Machine Learning',
+	  img: aiml,
+	  description: [
+		'Bias Detection & Fairness-Aware ML',
+		'LLM Fine-Tuning & Prompt Engineering',
+		'Retrieval-Augmented Generation (RAG)',
+		'Semantic Search / Vector Databases (Milvus, FAISS)',
+		'Deep Learning (TensorFlow, PyTorch, Keras)',
+		'Computer Vision (Face Recognition, Image Classification)',
+	  ],
 	},
 	{
-		id: 2,
-		title: 'Sony',
-		img: SonyImage,
+	  id: 2,
+	  title: 'Frameworks & Languages',
+	  img: frameworks,
+	  description: [
+		'Python (AI, Data, Web)',
+		'C++ (Algorithms, Competitive Coding)',
+		'React.js / Node.js',
+		'Flask / Django',
+		'SQL / PostgreSQL',
+	  ],
 	},
 	{
-		id: 3,
-		title: 'Adidas',
-		img: AdidasImage,
+	  id: 3,
+	  title: 'Cloud, MLOps & DevOps',
+	  img: cloud,
+	  description: [
+		'Vertex AI (GCP) / Azure',
+		'Docker',
+		'CI/CD Pipelines',
+		'Cloud-based MLOps Pipelines',
+	  ],
 	},
 	{
-		id: 4,
-		title: 'FILA',
-		img: FilaImage,
+	  id: 4,
+	  title: 'Data Engineering & Tools',
+	  img: pipelines,
+	  description: [
+		'ETL Pipelines',
+		'Power BI',
+		'Git / GitHub',
+		'Google Colab / Jupyter',
+	  ],
 	},
-	{
-		id: 5,
-		title: 'NB',
-		img: NBImage,
-	},
-	{
-		id: 6,
-		title: 'SAMSUNG',
-		img: SamsungImage,
-	},
-	{
-		id: 7,
-		title: 'CANON',
-		img: CanonImage,
-	},
-	{
-		id: 8,
-		title: 'PUMA',
-		img: PumaImage,
-	},
-];
+  ];
+
