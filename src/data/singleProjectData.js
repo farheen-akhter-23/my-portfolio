@@ -6,6 +6,8 @@ import ats from "../images/ats.png";
 import chatbot from '../images/chatbot.png';
 import yolo from "../images/tox.png";
 import tox from "../images/toxicity.jpeg"
+import podcast from "../images/podcast.jpeg"
+
 // Import icons
 import {
 	FiFacebook,
@@ -257,6 +259,308 @@ export const projectsData = [
 	{
 		id: 4,
 		ProjectHeader: {
+		  title: 'Milvus-MistralAI Chatbot',
+		  publishDate: 'March 15, 2024',
+		  tags: 'AI / Chatbot / RAG',
+		},
+		ProjectImages: [
+		  {
+			id: 1,
+			title: 'Milvus-MistralAI Chatbot Interface',
+			img: chatbot,
+		  },
+		],
+		ProjectInfo: {
+		  ObjectivesHeading: 'Objective',
+		  ObjectivesDetails:
+			'Develop an AI-powered chatbot for CSUSB\'s Computer Science and Engineering department to assist students with academic advising by retrieving relevant information using Milvus and Mistral-7B.',
+		  Technologies: [
+			{
+			  title: 'Tools & Technologies',
+			  techs: ['Milvus', 'Mistral-7B', 'RAG', 'HPC', 'Deep Learning'],
+			},
+		  ],
+		  ProjectDetailsHeading: 'Challenge',
+		  ProjectDetails: [
+			{
+			  id: 1,
+			  details:
+				'Integrating Milvus vector database with Mistral-7B to provide accurate and contextually relevant responses to student queries.',
+			},
+			{
+			  id: 2,
+			  details:
+				'Ensuring the chatbot retrieves information strictly from official university data to maintain accuracy and reliability.',
+			},
+			{
+				id:3,
+				details:
+				'Gather additional academic resources, including course catalogs, faculty publications, and departmental guidelines, to enrich the chatbots knowledge base.Process and integrate the collected data into the Milvus vector database, ensuring that the information is indexed and retrievable by the chatbot.​ Develop a set of diverse academic queries that students might ask, covering topics such as course prerequisites, research opportunities, and graduation requirements.​ Test the chatbots responses to the simulated queries, assessing accuracy, relevance, and completeness.​Optimization: Based on the evaluation results, fine-tune the chatbots retrieval and response generation mechanisms to enhance performance.'
+			}
+		  ],
+		  SocialSharingHeading: 'Source Code',
+		  SocialSharing: [
+			{
+			  id: 1,
+			  name: 'GitHub',
+			  icon: <FiGithub />,
+			  url: 'https://github.com/farheen-akhter-23/Milvus-MistralAI-Chatbot',
+			},
+			// {
+			//   id: 2,
+			//   name: 'LinkedIn',
+			//   icon: <FiLinkedin />,
+			//   url: 'https://www.linkedin.com/in/farheen-akhter-153a0b156/',
+			// },
+		  ],
+		},
+		RelatedProject: {
+		  title: 'Related Projects',
+		  Projects: [
+			{
+			  id: 1,
+			  title: 'Ecommerce AI Agent',
+			  img: shop,
+			},
+			{
+			  id: 2,
+			  title: 'Autonomous Web App Generator',
+			  img: webapp,
+			},
+			{
+			  id: 3,
+			  title: 'LLM-RAG-FAISS',
+			  img: ats,
+			},
+		  ],
+		},
+	},
+	{
+		id: 5,
+		ProjectHeader: {
+		  title: 'LLAMA Document Parser',
+		  publishDate: 'April 10, 2024',
+		  tags: 'Document Parsing / AI',
+		},
+		ProjectImages: [
+		  {
+			id: 1,
+			title: 'LLAMA Document Parser Interface',
+			img: llama,
+		  },
+		],
+		ProjectInfo: {
+		  ObjectivesHeading: 'Objective',
+		  ObjectivesDetails:
+			'Demonstrate the use of LlamaParse to efficiently extract structured data from PDFs, focusing on loading, parsing, and extracting tables using Python and LlamaParse API.',
+		  Technologies: [
+			{
+			  title: 'Tools & Technologies',
+			  techs: ['LlamaParse', 'Python', 'dotenv'],
+			},
+		  ],
+		  ProjectDetailsHeading: 'Challenge',
+		  ProjectDetails: [
+			{
+			  id: 1,
+			  details:
+				'Securely loading API credentials and integrating with LlamaParse for document parsing.',
+			},
+			{
+			  id: 2,
+			  details:
+				'Handling errors gracefully to avoid unexpected failures during the parsing process.',
+			},
+		  ],
+		  SocialSharingHeading: 'Source Code',
+		  SocialSharing: [
+			{
+			  id: 1,
+			  name: 'GitHub',
+			  icon: <FiGithub />,
+			  url: 'https://github.com/farheen-akhter-23/LLAMA-Document-Parser',
+			},
+			// {
+			//   id: 2,
+			//   name: 'LinkedIn',
+			//   icon: <FiLinkedin />,
+			//   url: 'https://www.linkedin.com/in/farheen-akhter-153a0b156/',
+			// },
+		  ],
+		},
+		RelatedProject: {
+		  title: 'Related Projects',
+		  Projects: [
+			{
+			  id: 1,
+			  title: 'Milvus-MistralAI Chatbot',
+			  img: chatbot,
+			},
+			{
+			  id: 2,
+			  title: 'LLM-RAG-FAISS',
+			  img: ats,
+			},
+			{
+			  id: 3,
+			  title: 'Autonomous Web App Generator',
+			  img: webapp,
+			},
+		  ],
+		},
+	},
+	{
+		id: 6,
+		ProjectHeader: {
+		  title: 'YOLO Segmentation',
+		  publishDate: 'May 5, 2024',
+		  tags: 'Computer Vision / Segmentation',
+		},
+		ProjectImages: [
+		  {
+			id: 1,
+			title: 'YOLO Segmentation Output',
+			img: yolo,
+		  },
+		],
+		ProjectInfo: {
+		  ObjectivesHeading: 'Objective',
+		  ObjectivesDetails:
+			'Implement instance segmentation using YOLOv8 on custom datasets, focusing on accurate object segmentation with high performance.',
+		  Technologies: [
+			{
+			  title: 'Tools & Technologies',
+			  techs: ['YOLOv8', 'Python', 'OpenCV', 'PyTorch'],
+			},
+		  ],
+		  ProjectDetailsHeading: 'Challenge',
+		  ProjectDetails: [
+			{
+			  id: 1,
+			  details:
+				'Training YOLOv8 model on custom datasets to achieve high accuracy in object segmentation.',
+			},
+			{
+			  id: 2,
+			  details:
+				'Optimizing the model for real-time inference without compromising on performance.',
+			},
+		  ],
+		  SocialSharingHeading: 'Source Code',
+		  SocialSharing: [
+			{
+			  id: 1,
+			  name: 'GitHub',
+			  icon: <FiGithub />,
+			  url: 'https://github.com/farheen-akhter-23/Data-Science-AI-DeepLearning-YOLO-Segmentation',
+			},
+			// {
+			//   id: 2,
+			//   name: 'LinkedIn',
+			//   icon: <FiLinkedin />,
+			//   url: 'https://www.linkedin.com/in/farheen-akhter-153a0b156/',
+			// },
+		  ],
+		},
+		RelatedProject: {
+		  title: 'Related Projects',
+		  Projects: [
+			{
+			  id: 1,
+			  title: 'LLAMA Document Parser',
+			  img: llama,
+			},
+			{
+			  id: 2,
+			  title: 'Milvus-MistralAI Chatbot',
+			  img: chatbot,
+			},
+			{
+			  id: 3,
+			  title: 'LLM-RAG-FAISS',
+			  img: ats,
+			},
+		  ],
+		},
+	},
+	{
+		id:7,
+		ProjectHeader: {
+		  title: 'Toxicity Model with Tokenization',
+		  publishDate: 'March 15, 2025',
+		  tags: 'NLP / Machine Learning',
+		},
+		ProjectImages: [
+		  {
+			id: 1,
+			title: 'Toxicity Model Interface',
+			img: tox,
+		  },
+		],
+		ProjectInfo: {
+		  ObjectivesHeading: 'Objective',
+		  ObjectivesDetails:
+			'Develop a machine learning model capable of detecting toxic comments in text data, utilizing advanced tokenization techniques to enhance accuracy.',
+		  Technologies: [
+			{
+			  title: 'Tools & Technologies',
+			  techs: ['Python', 'TensorFlow', 'Keras', 'NLTK', 'Pandas'],
+			},
+		  ],
+		  ProjectDetailsHeading: 'Challenge',
+		  ProjectDetails: [
+			{
+			  id: 1,
+			  details:
+				'The project involved creating a model to classify text comments based on their toxicity levels, addressing categories such as toxic, severe_toxic, obscene, threat, insult, and identity_hate.',
+			},
+			{
+			  id: 2,
+			  details:
+				'Implemented data preprocessing steps including text cleaning, tokenization, and lemmatization to prepare the dataset for training.',
+			},
+			{
+			  id: 3,
+			  details:
+				'Utilized a Bidirectional Long Short-Term Memory (LSTM) Recurrent Neural Network (RNN) architecture to effectively capture context and improve classification performance.',
+			},
+			{
+			  id: 4,
+			  details:
+				'Employed techniques to handle class imbalance in the dataset, ensuring the model performs well across all toxicity categories.',
+			},
+		  ],
+		  SocialSharingHeading: 'Source Code',
+		  SocialSharing: [
+			{
+			  id: 1,
+			  name: 'LinkedIn',
+			  icon: '<FiLinkedin />',
+			  url: 'https://www.linkedin.com/in/farheen-akhter-153a0b156/',
+			},
+			// {
+			// 	id: 2,
+			// 	name: 'GitHub',
+			// 	icon: <FiGithub />,
+			// 	url: 'https://github.com/farheen-akhter-23/Data-Science-AI-DeepLearning',
+			//   },
+		  ],
+		},
+		RelatedProject: {
+		  title: 'Related Projects',
+		  Projects: [
+			{
+			  id: 1,
+			  title: 'YOLO Segmentation',
+			  img: yolo,
+			},
+		  ],
+		},
+
+	},
+	{
+		id: 8,
+		ProjectHeader: {
 		  title: 'Podcast Intelligence Multimodal AI App',
 		  publishDate: 'April 24, 2025',
 		  tags: 'AI / Multimodal / NLP / Audio',
@@ -350,307 +654,5 @@ export const projectsData = [
 			},
 		  ],
 		},
-	  },
-	  
-	{
-		id: 5,
-		ProjectHeader: {
-		  title: 'Milvus-MistralAI Chatbot',
-		  publishDate: 'March 15, 2024',
-		  tags: 'AI / Chatbot / RAG',
-		},
-		ProjectImages: [
-		  {
-			id: 1,
-			title: 'Milvus-MistralAI Chatbot Interface',
-			img: chatbot,
-		  },
-		],
-		ProjectInfo: {
-		  ObjectivesHeading: 'Objective',
-		  ObjectivesDetails:
-			'Develop an AI-powered chatbot for CSUSB\'s Computer Science and Engineering department to assist students with academic advising by retrieving relevant information using Milvus and Mistral-7B.',
-		  Technologies: [
-			{
-			  title: 'Tools & Technologies',
-			  techs: ['Milvus', 'Mistral-7B', 'RAG', 'HPC', 'Deep Learning'],
-			},
-		  ],
-		  ProjectDetailsHeading: 'Challenge',
-		  ProjectDetails: [
-			{
-			  id: 1,
-			  details:
-				'Integrating Milvus vector database with Mistral-7B to provide accurate and contextually relevant responses to student queries.',
-			},
-			{
-			  id: 2,
-			  details:
-				'Ensuring the chatbot retrieves information strictly from official university data to maintain accuracy and reliability.',
-			},
-			{
-				id:3,
-				details:
-				'Gather additional academic resources, including course catalogs, faculty publications, and departmental guidelines, to enrich the chatbots knowledge base.Process and integrate the collected data into the Milvus vector database, ensuring that the information is indexed and retrievable by the chatbot.​ Develop a set of diverse academic queries that students might ask, covering topics such as course prerequisites, research opportunities, and graduation requirements.​ Test the chatbots responses to the simulated queries, assessing accuracy, relevance, and completeness.​Optimization: Based on the evaluation results, fine-tune the chatbots retrieval and response generation mechanisms to enhance performance.'
-			}
-		  ],
-		  SocialSharingHeading: 'Source Code',
-		  SocialSharing: [
-			{
-			  id: 1,
-			  name: 'GitHub',
-			  icon: <FiGithub />,
-			  url: 'https://github.com/farheen-akhter-23/Milvus-MistralAI-Chatbot',
-			},
-			// {
-			//   id: 2,
-			//   name: 'LinkedIn',
-			//   icon: <FiLinkedin />,
-			//   url: 'https://www.linkedin.com/in/farheen-akhter-153a0b156/',
-			// },
-		  ],
-		},
-		RelatedProject: {
-		  title: 'Related Projects',
-		  Projects: [
-			{
-			  id: 1,
-			  title: 'Ecommerce AI Agent',
-			  img: shop,
-			},
-			{
-			  id: 2,
-			  title: 'Autonomous Web App Generator',
-			  img: webapp,
-			},
-			{
-			  id: 3,
-			  title: 'LLM-RAG-FAISS',
-			  img: ats,
-			},
-		  ],
-		},
-	},
-	{
-		id: 6,
-		ProjectHeader: {
-		  title: 'LLAMA Document Parser',
-		  publishDate: 'April 10, 2024',
-		  tags: 'Document Parsing / AI',
-		},
-		ProjectImages: [
-		  {
-			id: 1,
-			title: 'LLAMA Document Parser Interface',
-			img: llama,
-		  },
-		],
-		ProjectInfo: {
-		  ObjectivesHeading: 'Objective',
-		  ObjectivesDetails:
-			'Demonstrate the use of LlamaParse to efficiently extract structured data from PDFs, focusing on loading, parsing, and extracting tables using Python and LlamaParse API.',
-		  Technologies: [
-			{
-			  title: 'Tools & Technologies',
-			  techs: ['LlamaParse', 'Python', 'dotenv'],
-			},
-		  ],
-		  ProjectDetailsHeading: 'Challenge',
-		  ProjectDetails: [
-			{
-			  id: 1,
-			  details:
-				'Securely loading API credentials and integrating with LlamaParse for document parsing.',
-			},
-			{
-			  id: 2,
-			  details:
-				'Handling errors gracefully to avoid unexpected failures during the parsing process.',
-			},
-		  ],
-		  SocialSharingHeading: 'Source Code',
-		  SocialSharing: [
-			{
-			  id: 1,
-			  name: 'GitHub',
-			  icon: <FiGithub />,
-			  url: 'https://github.com/farheen-akhter-23/LLAMA-Document-Parser',
-			},
-			// {
-			//   id: 2,
-			//   name: 'LinkedIn',
-			//   icon: <FiLinkedin />,
-			//   url: 'https://www.linkedin.com/in/farheen-akhter-153a0b156/',
-			// },
-		  ],
-		},
-		RelatedProject: {
-		  title: 'Related Projects',
-		  Projects: [
-			{
-			  id: 1,
-			  title: 'Milvus-MistralAI Chatbot',
-			  img: chatbot,
-			},
-			{
-			  id: 2,
-			  title: 'LLM-RAG-FAISS',
-			  img: ats,
-			},
-			{
-			  id: 3,
-			  title: 'Autonomous Web App Generator',
-			  img: webapp,
-			},
-		  ],
-		},
-	},
-	{
-		id: 7,
-		ProjectHeader: {
-		  title: 'YOLO Segmentation',
-		  publishDate: 'May 5, 2024',
-		  tags: 'Computer Vision / Segmentation',
-		},
-		ProjectImages: [
-		  {
-			id: 1,
-			title: 'YOLO Segmentation Output',
-			img: tox,
-		  },
-		],
-		ProjectInfo: {
-		  ObjectivesHeading: 'Objective',
-		  ObjectivesDetails:
-			'Implement instance segmentation using YOLOv8 on custom datasets, focusing on accurate object segmentation with high performance.',
-		  Technologies: [
-			{
-			  title: 'Tools & Technologies',
-			  techs: ['YOLOv8', 'Python', 'OpenCV', 'PyTorch'],
-			},
-		  ],
-		  ProjectDetailsHeading: 'Challenge',
-		  ProjectDetails: [
-			{
-			  id: 1,
-			  details:
-				'Training YOLOv8 model on custom datasets to achieve high accuracy in object segmentation.',
-			},
-			{
-			  id: 2,
-			  details:
-				'Optimizing the model for real-time inference without compromising on performance.',
-			},
-		  ],
-		  SocialSharingHeading: 'Source Code',
-		  SocialSharing: [
-			{
-			  id: 1,
-			  name: 'GitHub',
-			  icon: <FiGithub />,
-			  url: 'https://github.com/farheen-akhter-23/Data-Science-AI-DeepLearning-YOLO-Segmentation',
-			},
-			// {
-			//   id: 2,
-			//   name: 'LinkedIn',
-			//   icon: <FiLinkedin />,
-			//   url: 'https://www.linkedin.com/in/farheen-akhter-153a0b156/',
-			// },
-		  ],
-		},
-		RelatedProject: {
-		  title: 'Related Projects',
-		  Projects: [
-			{
-			  id: 1,
-			  title: 'LLAMA Document Parser',
-			  img: llama,
-			},
-			{
-			  id: 2,
-			  title: 'Milvus-MistralAI Chatbot',
-			  img: chatbot,
-			},
-			{
-			  id: 3,
-			  title: 'LLM-RAG-FAISS',
-			  img: ats,
-			},
-		  ],
-		},
-	},
-	{
-		id:8,
-		ProjectHeader: {
-		  title: 'Toxicity Model with Tokenization',
-		  publishDate: 'March 15, 2025',
-		  tags: 'NLP / Machine Learning',
-		},
-		ProjectImages: [
-		  {
-			id: 1,
-			title: 'Toxicity Model Interface',
-			img: tox,
-		  },
-		],
-		ProjectInfo: {
-		  ObjectivesHeading: 'Objective',
-		  ObjectivesDetails:
-			'Develop a machine learning model capable of detecting toxic comments in text data, utilizing advanced tokenization techniques to enhance accuracy.',
-		  Technologies: [
-			{
-			  title: 'Tools & Technologies',
-			  techs: ['Python', 'TensorFlow', 'Keras', 'NLTK', 'Pandas'],
-			},
-		  ],
-		  ProjectDetailsHeading: 'Challenge',
-		  ProjectDetails: [
-			{
-			  id: 1,
-			  details:
-				'The project involved creating a model to classify text comments based on their toxicity levels, addressing categories such as toxic, severe_toxic, obscene, threat, insult, and identity_hate.',
-			},
-			{
-			  id: 2,
-			  details:
-				'Implemented data preprocessing steps including text cleaning, tokenization, and lemmatization to prepare the dataset for training.',
-			},
-			{
-			  id: 3,
-			  details:
-				'Utilized a Bidirectional Long Short-Term Memory (LSTM) Recurrent Neural Network (RNN) architecture to effectively capture context and improve classification performance.',
-			},
-			{
-			  id: 4,
-			  details:
-				'Employed techniques to handle class imbalance in the dataset, ensuring the model performs well across all toxicity categories.',
-			},
-		  ],
-		  SocialSharingHeading: 'Source Code',
-		  SocialSharing: [
-			{
-			  id: 1,
-			  name: 'LinkedIn',
-			  icon: '<FiLinkedin />',
-			  url: 'https://www.linkedin.com/in/farheen-akhter-153a0b156/',
-			},
-			// {
-			// 	id: 2,
-			// 	name: 'GitHub',
-			// 	icon: <FiGithub />,
-			// 	url: 'https://github.com/farheen-akhter-23/Data-Science-AI-DeepLearning',
-			//   },
-		  ],
-		},
-		RelatedProject: {
-		  title: 'Related Projects',
-		  Projects: [
-			{
-			  id: 1,
-			  title: 'YOLO Segmentation',
-			  img: yolo,
-			},
-		  ],
-		},
-	}	  
+	},   
 ]

@@ -9,7 +9,7 @@ const DemosGrid = () => {
 					Live Demos
 				</p>
 			</div>
-			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10 mb-6">
+			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 mt-6 sm:gap-10 mb-6">
                 {videosData.map((video) => (
                    <div key={video.id}>
                         <h3 className="text-lg font-semibold mb-2 text-ternary-dark dark:text-ternary-light">

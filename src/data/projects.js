@@ -6,6 +6,7 @@ import chatbot from '../images/chatbot.png'
 import llama from "../images/llama.png";
 import tox from "../images/tox.png"
 import toxi from "../images/toxicity.jpeg"
+import podcast from"../images/podcast.jpeg"
 import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
@@ -53,5 +54,11 @@ export const projectsData = [
 		title: 'Toxicity Model using Text Vector Tokenization',
 		category: 'Machine Learning',
 		img: toxi,
+	},
+	{
+		id: 8,
+		title: 'Multi Modal AI Podcast App ',
+		category: 'LLM',
+		img: podcast,
 	},
 ];
