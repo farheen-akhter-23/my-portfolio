@@ -257,6 +257,104 @@ export const projectsData = [
 	{
 		id: 4,
 		ProjectHeader: {
+		  title: 'Podcast Intelligence Multimodal AI App',
+		  publishDate: 'April 24, 2025',
+		  tags: 'AI / Multimodal / NLP / Audio',
+		},
+		ProjectImages: [
+		  {
+			id: 1,
+			title: 'Podcast Summarizer App Interface',
+			img: podcast, // make sure to import or define this image
+		  },
+		],
+		ProjectInfo: {
+		  ObjectivesHeading: 'Objective',
+		  ObjectivesDetails:
+			'Build a multimodal AI application that takes a Spotify podcast episode, generates a concise text summary using LLMs, and produces a short audio version of the summary for rapid comprehension.',
+		  Technologies: [
+			{
+			  title: 'Tools & Technologies',
+			  techs: [
+				'Streamlit',
+				'gTTS',
+				'OpenAI API (GPT-4)',
+				'Anthropic Claude 3',
+				'Mistral Large',
+				'Spotify API',
+				'Python 3.10',
+			  ],
+			},
+		  ],
+		  ProjectDetailsHeading: 'Challenge',
+		  ProjectDetails: [
+			{
+			  id: 1,
+			  details:
+				'Integrating Spotify API to fetch podcast episode metadata and descriptions.',
+			},
+			{
+			  id: 2,
+			  details:
+				'Designing a unified interface to support multiple LLMs (OpenAI, Claude, Mistral) for text summarization.',
+			},
+			{
+			  id: 3,
+			  details:
+				'Implementing voice synthesis using gTTS to generate a 10-second audio clip from the generated summary.',
+			},
+			{
+			  id: 4,
+			  details:
+				'Providing an intuitive UI using Streamlit for non-technical users to access AI capabilities in a single click.',
+			},
+			{
+			  id: 5,
+			  details:
+				'Exploring multimodal support and potential extensions like podcast scraping and audio file uploads.',
+			},
+		  ],
+		  SocialSharingHeading: 'Source Code',
+		  SocialSharing: [
+			{
+			  id: 1,
+			  name: 'GitHub',
+			  icon: <FiGithub />,
+			  url: 'https://github.com/farheen-akhter-23/Multimodal-AI-PODCAST',
+			},
+			// {
+			//   id: 2,
+			//   name: 'LinkedIn',
+			//   icon: <FiLinkedin />,
+			//   url: 'https://www.linkedin.com/in/farheen-akhter-153a0b156/',
+			// },
+		  ],
+		},
+		RelatedProject: {
+		  title: 'Related Projects',
+		  Projects: [
+			{
+			  id: 1,
+			  title: 'Autonomous Web App Generator',
+			  img: webapp,
+			},
+			{
+			  id: 2,
+			  title: 'Milvus MistralAI Chatbot',
+			  img: chatbot,
+			},
+			{
+			  id: 3,
+			  title: 'ShopMind AI',
+			  img: shop,
+			},
+		  ],
+		},
+	  },
+	  
+	{
+		id: 5,
+		ProjectHeader: {
 		  title: 'Milvus-MistralAI Chatbot',
 		  publishDate: 'March 15, 2024',
 		  tags: 'AI / Chatbot / RAG',
@@ -334,7 +432,7 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 5,
+		id: 6,
 		ProjectHeader: {
 		  title: 'LLAMA Document Parser',
 		  publishDate: 'April 10, 2024',
@@ -408,7 +506,7 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 6,
+		id: 7,
 		ProjectHeader: {
 		  title: 'YOLO Segmentation',
 		  publishDate: 'May 5, 2024',
@@ -482,7 +580,7 @@ export const projectsData = [
 		},
 	},
 	{
-		id:7,
+		id:8,
 		ProjectHeader: {
 		  title: 'Toxicity Model with Tokenization',
 		  publishDate: 'March 15, 2025',

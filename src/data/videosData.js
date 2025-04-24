@@ -4,6 +4,7 @@ import sent from "../components/live-demos/squid-demo.mp4";
 import movie from "../components/live-demos/movie-recom.mp4"
 import churn from "../components/live-demos/churn-model.mp4"
 import auto from "../components/live-demos/auto-web-app.mp4"
+import podcast from "../components/live-demos/podcast.mp4"
 
 const videosData = [
     {
@@ -35,6 +36,11 @@ const videosData = [
         id:6,
         title:'Autonomous Web App Generator LLM',
         src: auto
+      },
+      {
+        id:7,
+        title:'Multi Modal AI Podcast App',
+        src: podcast
       }
   ];
   
